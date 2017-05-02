@@ -1,6 +1,6 @@
 .ipynb_checkpoints/
 .vagrant/
-metastore_db/
 downloads/**
+metastore_db/
 
 *.log
