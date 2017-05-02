@@ -1,0 +1,4 @@
+PATH="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin"
+SPARK_HOME="/opt/spark"
+PYTHONPATH="/opt/spark/python"
+SCALA_HOME="/usr/share/scala"

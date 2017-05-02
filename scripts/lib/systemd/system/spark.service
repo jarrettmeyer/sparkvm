@@ -1,0 +1,11 @@
+[Unit]
+Description=Job for starting and stopping Apache Spark
+
+[Service]
+WorkingDirectory=/opt/spark
+ExecStart=/opt/spark/sbin/start-master.sh
+ExecStop=/opt/spark/sbin/stop-master.sh
+Restart=always
+
+[Install]
+WantedBy=multi-user.target

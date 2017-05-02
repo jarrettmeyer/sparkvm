@@ -1,0 +1,10 @@
+[Unit]
+Description=Job for starting and stopping Jupyter Notebook
+
+[Service]
+WorkingDirectory=/vagrant/notebooks
+Environment=PYTHONPATH=/opt/spark/python:$PYTHONPATH
+ExecStart=/usr/local/bin/jupyter notebook --no-browser --allow-root
+
+[Install]
+WantedBy=multi-user.target
