@@ -40,9 +40,9 @@ echo "Successfully installed Java."
 # Install Apache Spark.
 echo "Installing Apache Spark."
 cd /tmp
-wget -q http://d3kbcqa49mib13.cloudfront.net/spark-2.1.0-bin-hadoop2.7.tgz
-tar -xzf /tmp/spark-2.1.0-bin-hadoop2.7.tgz
-mv /tmp/spark-2.1.0-bin-hadoop2.7 /opt/spark
+wget -q http://d3kbcqa49mib13.cloudfront.net/spark-2.1.1-bin-hadoop2.7.tgz
+tar -xzf /tmp/spark-2.1.1-bin-hadoop2.7.tgz
+mv /tmp/spark-2.1.1-bin-hadoop2.7 /opt/spark
 echo "Successfully installed Apache Spark to /opt/spark"
 echo "SPARK_HOME=${SPARK_HOME}"
 
