@@ -3,4 +3,6 @@
 downloads/**
 metastore_db/
 
+data/creditcard.csv
+
 *.log
